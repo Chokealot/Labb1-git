@@ -1,0 +1,32 @@
+C:\Users\ckony\Documents\GitLabb>git merge newBranch
+Updating 0243899..5f38890
+Fast-forward
+ logtext.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 logtext.txt
+
+C:\Users\ckony\Documents\GitLabb>git log
+commit 5f38890db9c541e713cf1ea077aafeecf0ff86a9 (HEAD -> master, chokealot/newBranch, newBranch)
+Author: Chokealot <70509435+Chokealot@users.noreply.github.com>
+Date:   Thu Oct 29 09:52:15 2020 +0100
+
+    logfile added to branch;
+
+commit 0243899811de75d561020b626f120a7abe58781b (chokealot/master)
+Author: Chokealot <70509435+Chokealot@users.noreply.github.com>
+Date:   Thu Oct 29 09:43:38 2020 +0100
+
+    Added a .gitignore file to the project;
+
+commit 24de644611c3f426510a0c27c6ccb174152574f1
+Author: Chokealot <70509435+Chokealot@users.noreply.github.com>
+Date:   Thu Oct 29 09:43:04 2020 +0100
+
+    Added 'README.md' file;
+
+C:\Users\ckony\Documents\GitLabb>git push chokealot
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/Chokealot/Labb1-git.git
+   0243899..5f38890  master -> master
+
+C:\Users\ckony\Documents\GitLabb>
